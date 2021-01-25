@@ -1,24 +1,15 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+1. Primeiro vez que rodar o projeto :
 
-Things you may want to cover:
+        $ docker-compose build
 
-* Ruby version
+2. Demais vezes:
 
-* System dependencies
+        $ docker-compose up
+        
 
-* Configuration
+3. Acesso do Container: 
 
-* Database creation
+        $ docker-compose exec web bash
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
